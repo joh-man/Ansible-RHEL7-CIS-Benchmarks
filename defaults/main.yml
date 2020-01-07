@@ -386,5 +386,11 @@ cis_umask_shell_files:
 - /etc/bashrc
 - /etc/profile
 
+# 5.4.5
+cis_tmout_default: 900
+cis_tmout_shell_files:
+- /etc/bashrc
+- /etc/profile
+
 # 5.5
 cis_wheel_group_members: "root"
